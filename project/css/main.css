@@ -1009,11 +1009,10 @@ a:focus {
  }
 #portfolio .filter a.current:after {
     content: "\f00c";
-    display: block;
+    display: inline-block;
     font-family:"fontAwesome";
     font-size: 15px;
     left: 0px;
-    position: absolute;
     top: 10px;
     width: 14px;
     z-index: 0;
